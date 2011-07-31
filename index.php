@@ -3,10 +3,10 @@
 <br class="clear" />
 <div id="container">
 
-	<div id="left-column" class="left pic-column">
+	<div id="left-column" class="column left-column pic-column">
 	</div>
 	
-	<div id="center-column" class="left text-column">
+	<div id="center-column" class="column center-column text-column">
 		<h3 class="title">About</h3>
 		<br class="clear" />
 		<p>This is a culmination of dreams rolling back on themselves to become footnotes, forgotten asides important only to the author and those fervent, wide-eyed types, determined to capture everything and all.  These committed will take in all they can, as they see themselves in the author.  Those not, will go about their lives.</p>
@@ -15,7 +15,7 @@
 		<p>This site is you and me and all your friends gathered at one party to celebrate everything we have been becoming everything we will be.</p>
 	</div>
 	
-	<div id="right-column" class="right text-column">
+	<div id="right-column" class="column right-column text-column">
 		<div id="songs" class="latest">
 		<h3 class="title">Songs</h3>
 		<br class="clear" />
