@@ -43,11 +43,10 @@
   
 	<div id="header">  
                    
-  	<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>  
-  	<br class="clear" />
+  		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>  
 
 	</div>
-	<ul id="nav">	
+	<ul id="nav" class="nav">
 		<li><a href="#">Originals</a>
 		    <?php $songPosts = new WP_Query(); ?>
 			<?php $songPosts->query('cat=23&tag=original'); ?>
