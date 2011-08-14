@@ -622,4 +622,9 @@ textarea#comment {
 		margin: 20px auto auto;
 	}
 	
+	/* Posts */
+	.pic-column-feature {
+		display:none;
+	}
+	
 }/*/mediaquery*/

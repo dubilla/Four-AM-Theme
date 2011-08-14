@@ -12,7 +12,7 @@ Description: For songs, cover or original, for the time being
 <div id="container">
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	<div id="left-columns" class="left pic-column">
+	<div id="left-columns" class="left pic-column-feature">
 		<img id="photo" src="<?php echo get_post_meta($post->ID,'photo','single'); ?>">
 	</div>
 
